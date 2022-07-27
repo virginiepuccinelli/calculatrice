@@ -1,0 +1,63 @@
+#memoire {
+    top: 5px;
+    left: 20px;
+    display: none;
+
+}
+
+.container {
+    border: 3px solid grey;
+    box-shadow: 3px 3px 3px gray;
+    border-radius: 4px;
+    padding: 5%;
+    background: radial-gradient(circle, rgba(207, 124, 45, 1) 12%, rgba(0, 0, 0, 1) 100%);
+}
+
+#titre {
+    text-align: center;
+    font-weight: bolder;
+    color: white;
+    text-shadow: 1px 1px 1px gray;
+}
+
+#ecran {
+    background: radial-gradient(circle, rgba(124, 123, 115, 1) 12%, rgba(0, 0, 0, 1) 100%);
+    box-shadow: 1px 2px 2px gray;
+    font-weight: bolder;
+    padding: 3%;
+    font-size: 2em;
+    color: #f2e7d5;
+}
+
+span.btn.btn-danger {
+    background: radial-gradient(circle, rgba(252, 106, 8, 1) 12%, rgba(0, 0, 0, 1) 100%);
+    color: black;
+    text-shadow: 0 1px 2px black;
+    box-shadow: 1px 2px 2px gray;
+    border-color: transparent;
+    font-weight: bolder;
+}
+
+span.btn.btn-secondary {
+    color: black;
+    background: radial-gradient(circle, rgba(198, 195, 161, 1) 12%, rgba(0, 0, 0, 1) 100%);
+    box-shadow: 1px 2px 2px gray;
+    font-weight: bolder;
+    border: none;
+}
+
+span.btn.btn-primary {
+    background: radial-gradient(circle, rgba(211, 182, 145, 1) 12%, rgba(0, 0, 0, 1) 100%);
+    border: black;
+    box-shadow: 1px 2px 2px gray;
+    font-weight: bolder;
+    color: black;
+}
+
+span.btn.btn-warning {
+    background: radial-gradient(circle, rgba(161, 193, 198, 1) 15%, rgba(0, 0, 0, 1) 100%);
+    box-shadow: 1px 2px 2px gray;
+    font-weight: bolder;
+    font-size: 1.5em;
+    border: none;
+}
